@@ -4,3 +4,10 @@ spring:
     url: jdbc:mysql://localhost:3306/todo
     username: root
     password: 1234
+
+org:
+  gradle:
+    jvmargs: "-Xmx512m -XX:MaxPermSize=256m"
+    daemon: true
+    parallel: true
+    caching: true
