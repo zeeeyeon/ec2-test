@@ -12,7 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/todos")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://3.34.1.0:8080", allowedHeaders = "*")
+@CrossOrigin(origins = "http://3.36.119.183:8080", allowedHeaders = "*")
 public class TodoController {
     private final TodoRepository todoRepository;
 
